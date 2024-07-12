@@ -44,7 +44,7 @@ The app looks like this.
 1. You need at least [Node.js](https://nodejs.org/en) v20.11.1 to start locally.
 1. Installation: run `npm install` in the `client` and `server` directories.
 1. After installation, use `npm start` in the `client` and `server` directories.
-1. Open the browser at `http://localhost:5173/`
+1. Open the browser at `http://localhost:3050/`
 1. Click on the **Play with random numbers** checkbox in the GUI to start the lottery generation.
 
 ## Usage with `Docker`
@@ -52,6 +52,7 @@ The app looks like this.
 1. You need [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed
 1. Start Docker Desktop
 1. In the project repo, where `docker-compose.yaml` is located, execute `docker compose up`
+1. Open the browser at `http://localhost:3050/`
 
 ## Test and development environment
 
