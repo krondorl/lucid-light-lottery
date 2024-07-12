@@ -1,3 +1,11 @@
+/*!
+ * Lucid Light Lottery
+ *
+ * Copyright (c) 2024 Adam Burucs
+ *
+ * MIT Licensed
+ */
+
 interface StartDialogProps {
   isOpen: boolean;
 }

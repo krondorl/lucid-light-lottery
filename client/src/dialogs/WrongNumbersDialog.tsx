@@ -1,3 +1,11 @@
+/*!
+ * Lucid Light Lottery
+ *
+ * Copyright (c) 2024 Adam Burucs
+ *
+ * MIT Licensed
+ */
+
 interface WrongNumbersDialogProps {
   isOpen: boolean;
   onWrongNumbersDialogCallback: (value: boolean) => void;

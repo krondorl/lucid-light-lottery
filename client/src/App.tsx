@@ -1,3 +1,11 @@
+/*!
+ * Lucid Light Lottery
+ *
+ * Copyright (c) 2024 Adam Burucs
+ *
+ * MIT Licensed
+ */
+
 import "./App.css";
 import Summary from "./components/Summary";
 import ResultDetails from "./components/ResultDetails";

@@ -1,3 +1,11 @@
+/*!
+ * Lucid Light Lottery
+ *
+ * Copyright (c) 2024 Adam Burucs
+ *
+ * MIT Licensed
+ */
+
 import { generate } from "./generator.js";
 import { WebSocket, WebSocketServer } from "ws";
 import { inspect } from "util";

@@ -1,3 +1,11 @@
+/*!
+ * Lucid Light Lottery
+ *
+ * Copyright (c) 2024 Adam Burucs
+ *
+ * MIT Licensed
+ */
+
 import { WinningNumbers } from "./winning-numbers.model.js";
 
 export function getDrawMatches(
