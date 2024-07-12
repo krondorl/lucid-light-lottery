@@ -1,12 +1,18 @@
 ![Balls](docs/balls-6005924_640.jpg "Lottery Balls")
 
-# Lucid Lite Lottery
+# Lucid Light Lottery
 
 This lottery program is a React + Node.js full-stack app practice example.
 
 The app works in a limited mode.
 
 **The simulation starts when the user checks the random mode.**
+
+## Screen
+
+The app looks like this.
+
+![Main screen](docs/screen.png "Main screen")
 
 ## Stack and Tooling
 
