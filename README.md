@@ -41,6 +41,12 @@ The app works in a limited mode.
 1. Open the browser at `http://localhost:5173/`
 1. Click on the **Play with random numbers** checkbox in the GUI to start the lottery generation.
 
+## Usage with `Docker`
+
+1. You need [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed
+1. Start Docker Desktop
+1. In the project repo, where `docker-compose.yaml` is located, execute `docker compose up`
+
 ## Test and development environment
 
 I used the following setup:
