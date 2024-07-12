@@ -1,3 +1,5 @@
+![Balls](docs/balls-6005924_640.jpg "Lottery Balls")
+
 # Lucid Lite Lottery
 
 This lottery program is a React + Node.js full-stack app practice example.
