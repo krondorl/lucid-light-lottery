@@ -33,13 +33,13 @@ The app works in a limited mode.
 - dialogs for messages
 - prep files for running databases from Docker and init SQL scripts
 
-## Installation
+## Usage with `npm`
 
-Run `npm install` in the `client` and `server` directories.
-
-## Usage
-
-After installation, use `npm `to `start` in the `client` and `server` directories.
+1. You need at least [Node.js](https://nodejs.org/en) v20.11.1 to start locally.
+1. Installation: run `npm install` in the `client` and `server` directories.
+1. After installation, use `npm start` in the `client` and `server` directories.
+1. Open the browser at `http://localhost:5173/`
+1. Click on the **Play with random numbers** checkbox in the GUI to start the lottery generation.
 
 ## Test and development environment
 
