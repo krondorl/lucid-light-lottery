@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS GameData (
+    player VARCHAR(255) NOT NULL,
+    week INT NOT NULL,
+    wn1 INT NOT NULL,
+    wn2 INT NOT NULL,
+    wn3 INT NOT NULL,
+    wn4 INT NOT NULL,
+    wn5 INT NOT NULL,
+    pn1 INT NOT NULL,
+    pn2 INT NOT NULL,
+    pn3 INT NOT NULL,
+    pn4 INT NOT NULL,
+    pn5 INT NOT NULL
+);
