@@ -1,8 +1,17 @@
 version: "3.8"
 services:
+  nginx:
+    depends_on:
+      - ws
+      - react-app
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    ports:
+      - "3050:80"
   ws:
     container_name: ws_server
-    restart: on-failure
     build:
       context: ./server
       dockerfile: Dockerfile
@@ -12,7 +21,6 @@ services:
       - "8080:8080"
   react-app:
     container_name: react_app
-    restart: on-failure
     build:
       context: ./client
       dockerfile: Dockerfile
