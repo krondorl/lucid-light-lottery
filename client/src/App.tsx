@@ -71,7 +71,7 @@ function App() {
   const [isWrongNumbersDialogOpen, setWrongNumbersDialogOpen] = useState(false);
 
   useEffect(() => {
-    ws.current = new WebSocket("ws://localhost:8080");
+    ws.current = new WebSocket("ws://localhost:8181");
     ws.current.onopen = () => console.log("ws opened");
     ws.current.onclose = () => console.log("ws closed");
 

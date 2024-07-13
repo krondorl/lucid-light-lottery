@@ -111,7 +111,7 @@ export function main(): void {
   console.log();
   console.log("Opening Websocket...");
 
-  const wss = new WebSocketServer({ port: 8080 });
+  const wss = new WebSocketServer({ port: 8181 });
 
   wss.on("connection", (ws) => {
     console.log("Server Connection is OK");
